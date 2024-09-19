@@ -66,9 +66,9 @@ class TeamMatches extends Component {
   }
 
   generatePieChartData = () => [
-    {name: 'Won', value: this.getNoOfMatches('Won')},
-    {name: 'Lost', value: this.getNoOfMatches('Lost')},
-    {name: 'Drawn', value: this.getNoOfMatches('Drawn')},
+    { name: 'Won', value: 10 },
+  { name: 'Lost', value: 5 },
+  { name: 'Drawn', value: 2 },
   ]
 
   renderRecentMatchesList = () => {
